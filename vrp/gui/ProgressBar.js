@@ -49,6 +49,14 @@ ProgressBar.prototype.frame = function(time)
     var anchor_index = anchor.indexOf(this);
     if(anchor_index >= 0){
       if(anchor_name == "minimap"){ //MINIMAP
+        // Check if cfg is defined, use defaults if not
+        if(typeof cfg === 'undefined' || !cfg){
+          cfg = {
+            anchor_minimap_width: 260,
+            anchor_minimap_left: 60,
+            anchor_minimap_bottom: 213
+          };
+        }
         var width = cfg.anchor_minimap_width/anchor.length; //divide horizontal map space by number of pbars
 		
 if ($(window).width() >= 1900 ) {

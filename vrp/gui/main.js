@@ -1,3 +1,10 @@
+// global cfg variable (will be set when config is received from server)
+var cfg = {
+  anchor_minimap_width: 260,
+  anchor_minimap_left: 60,
+  anchor_minimap_bottom: 213
+};
+
 window.addEventListener("load",function(){
   errdiv = document.createElement("div");
   if(true){ //debug

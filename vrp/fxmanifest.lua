@@ -64,7 +64,7 @@ files{
   "lib/Tunnel.lua",
   "lib/Proxy.lua",
   "lib/Debug.lua",
-  "lib/Luaseq.lua",
+  "lib/Luang.lua",
   "lib/Tools.lua",
   "cfg/client.lua",
   "gui/index.html",
@@ -76,7 +76,5 @@ files{
   "gui/RequestManager.js",
   "gui/AnnounceManager.js",
   "gui/Div.js",
-  "gui/dynamic_classes.js",
-  "gui/fonts/Pdown.woff",
-  "gui/fonts/GTA.woff"
+  "gui/dynamic_classes.js"
 }
