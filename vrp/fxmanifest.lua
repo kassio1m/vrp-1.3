@@ -76,5 +76,7 @@ files{
   "gui/RequestManager.js",
   "gui/AnnounceManager.js",
   "gui/Div.js",
-  "gui/dynamic_classes.js"
+  "gui/dynamic_classes.js",
+  "gui/fonts/Pdown.woff",
+  "gui/fonts/GTA.woff"
 }
