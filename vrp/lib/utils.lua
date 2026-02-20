@@ -2,7 +2,7 @@
 -- it will create module, SERVER, CLIENT, async...
 
 -- side detection
-SERVER = not IsVehicleEngineStarting
+SERVER = IsDuplicityVersion()
 CLIENT = not SERVER
 
 function table.maxn(t)
