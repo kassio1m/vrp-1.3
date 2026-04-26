@@ -25,10 +25,6 @@ end
 
 -- begin profile
 function Debug.pbegin(str)
-  if not max_time then
-    max_time = 2
-  end
-
   if Debug.active then
     local id = profile_ids:gen()
     profiles[id] = {os.clock(), str}

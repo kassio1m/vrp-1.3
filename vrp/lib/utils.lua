@@ -131,7 +131,7 @@ function sanitizeString(str, strchars, allow_policy)
   end
 
   -- sanitize
-  size = string.len(str)
+  local size = string.len(str)
   for i=1,size do
     local char = string.sub(str,i,i)
     if (allow_policy and chars[char]) or (not allow_policy and not chars[char]) then

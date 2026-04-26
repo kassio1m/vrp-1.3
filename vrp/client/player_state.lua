@@ -201,7 +201,8 @@ function tvRP.setCustomization(custom) -- indexed [drawable,texture,palette] com
 
       -- model
       if custom.modelhash then
-        mhash = custom.modelhash
+        -- Lua 5.4: garantir que modelhash é integer após decode de JSON
+        mhash = math.tointeger(custom.modelhash) or custom.modelhash
       elseif custom.model then
         mhash = GetHashKey(custom.model)
       end

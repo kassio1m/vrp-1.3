@@ -1,5 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
+lua54 'yes'
+use_fxv2_oal 'yes'
 
 author 'KokeroO - Discord:Kokero#3996 - https://github.com/KokeroO/'
 description 'vRP oxmysql Legacy driver is a script that bridges the gap between server and oxmysql.'
