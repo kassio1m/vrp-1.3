@@ -5,9 +5,9 @@ local cfg = {}
 cfg.db = {
   driver = "oxmysql",
   host = "127.0.0.1",
-  database = "vRP",
-  user = "vRP",
-  password = "password"
+  database = "fivem",
+  user = "root",
+  password = ""
 }
 
 cfg.save_interval = 60 -- seconds

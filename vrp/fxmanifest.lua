@@ -8,8 +8,13 @@ description "RP module/framework"
 
 ui_page "gui/index.html"
 
+shared_script {
+  "@oxmysql/lib/MySQL.lua",
+}
+
+
 -- server scripts
-server_scripts{ 
+server_scripts{
   "lib/utils.lua",
   "base.lua",
   "modules/gui.lua",
