@@ -31,15 +31,13 @@ server_scripts{
   "modules/aptitude.lua",
 
   -- basic implementations
-  "modules/basic_phone.lua",
-  "modules/basic_atm.lua",
   "modules/basic_market.lua",
   "modules/basic_gunshop.lua",
   "modules/basic_garage.lua",
   "modules/basic_items.lua",
   "modules/basic_skinshop.lua",
-  "modules/cloakroom.lua",
-  "modules/basic_radio.lua"
+  "modules/cloakroom.lua"
+
 }
 
 -- client scripts
@@ -54,9 +52,7 @@ client_scripts{
   "client/identity.lua",
   "client/basic_garage.lua",
   "client/police.lua",
-  "client/admin.lua",
-  "client/basic_phone.lua",
-  "client/basic_radio.lua"
+  "client/admin.lua"
 }
 
 -- client files
